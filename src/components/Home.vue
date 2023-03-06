@@ -1,32 +1,12 @@
 <template>
-  <h1 :class="applyStyle">{{ text }}</h1>
-  <button v-on:click="colorfull = !colorfull">Add style</button>
+  <h1>Simple Form</h1>
+  <input type="text" ref="input" />
+  <button v-on:click="getData">Click me</button>
 </template>
 <script>
 export default {
   name: "HomePage",
-  data() {
-    return {
-      text: "Anil sidhu",
-      colorfull: false,
-    };
-  },
-  computed: {
-    applyStyle() {
-      return { green: this.colorfull, err: true,other:false  };
-    },
-  },
+
 };
 </script>
-<style scoped>
-.green {
-  background-color: green;
-}
-
-.err {
-  color: red;
-}
-.other{
-   text-decoration: underline;
-}
-</style>
+<style></style>
