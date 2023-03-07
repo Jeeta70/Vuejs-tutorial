@@ -1,6 +1,6 @@
 <!-- Watcher is like a React useEffect with dipendency array -->
 <template>
-  <h1>Child component</h1>
+  <h1>Watchers</h1>
   <h2>{{ count }}</h2>
   <button v-on:click="count = count + 1">+</button>
   <button v-on:click="count = count - 1">-</button>
