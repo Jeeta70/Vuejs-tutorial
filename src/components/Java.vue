@@ -1,8 +1,8 @@
 <template>
-  <h1>Slots in vue js 3</h1>
+  <h1>Java content</h1>
 </template>
 <script>
 export default {
-  name: "Child",
+  name: "Java",
 };
 </script>
